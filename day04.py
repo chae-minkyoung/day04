@@ -12,10 +12,13 @@ That's -a moray"""
 #     print(song.replace(song[idx],song[idx]))
 
 song_list = song.split()
-print(song_list)
-song_list[13] = song_list[13].title()
-song_string=' '.join(song_list)
-print(song_string)
+# print(song_list)
+if m in song_list
+idx=song[m].startswith("m")
+# song_list[idx] = song_list[idx].title()
+print(song.replace(song[idx],'M'))
+# song_string=' '.join(song_list)
+# print(song_string)
 
 # subject='     python, data structure,A database     $$$'
 # print(subject.title())
