@@ -1,26 +1,56 @@
-# army='우리는 국가와 국민에 충성을 다하는 대학민국 육군이다.'\
-# '하나 우리는 자유민주주의를 수호하며 조국 통일의 역군이 된다.'\
-# '둘 우리는 실전과 같은 훈련으로 지상전의 승리자가 된다.'\
-# '셋 우리는 명예와 신의를 지키며 전우애로 굳게 단결한다.'
-# print(army)
-
-# army='\"우리는 국가와 국민에 충성을 다하는 대학민국 육군이다.\"'
-# print(army)
-# print(str(True))
-
-# a='stirng'
-# b='결합'
-# print(a+b)
-
-# start='Na ' * 4 +'\n'
-# middle='Hey '*3 + '\n'
-# end='Good bye'
+song="""When an eel grabs your arm,
+And it causes great harm,
+That's -a moray"""
 #
-# print(start+middle+end)
+# idx=song.find('m')
+# # if song[idx].startswith('m'):
+# #     song=song.replace(song[idx],'M')
+# # print(song)
+# # idx=song.rfind('m')
+# # song=song.replace(song[idx], song[idx].upper)
+# if song.startswith('m'):
+#     print(song.replace(song[idx],song[idx]))
+
+song_list = song.split()
+print(song_list)
+song_list[13] = song_list[13].title()
+song_string=' '.join(song_list)
+print(song_string)
+
+# subject='     python, data structure,A database     $$$'
+# print(subject.title())
+# print(subject.rfind('data'), subject.rindex('data'))
+# print(subject.find('inha'))
+# print(subject.index('inha'))
+
+
+# blurt="what the ...?!"
+# print(blurt.strip('.?!'))A
+
+
+# subject='     python, data structure,A database     $$$'
+# print(subject)
+# print(subject.strip())
+# print(subject.strip('$'))
+# print(subject.lstrip('$'))
+# print(subject.rstrip('$'))
 
 
 
 
+# setup = "a duck goes into a bar"
+# print(setup.replace('a','a good', 2))
+# print(setup.replace('a ','a good'))
+# print(setup)
 
-
-
+# pokemons_list = ['피카츄', '꼬부기', '이상해씨', '파이리']
+# pokemons_string='$'.join(pokemons_list)
+# print(pokemons_string)
+# univ= 'Inha University'
+# print(univ.split('i'))
+# print(len(univ))
+# print(univ[2:10:2])
+# print(univ[5:15])
+# print(univ[-10:])
+#
+# print(univ[5:-6])
